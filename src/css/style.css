@@ -40,6 +40,7 @@ p {
   background: url("../img/womanchild.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 700px;
   min-height: 700px; }
   #home-section .dark-overlay {
     background-color: rgba(0, 0, 0, 0.2);
@@ -53,8 +54,13 @@ p {
     column-rule: #785ca6; }
   #home-section .home-inner {
     padding-top: 150px; }
-  #home-section h4 {
-    text-align: right; }
+  #home-section p {
+    margin-bottom: 1px; }
+  #home-section .awards {
+    width: 125px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 10px; }
 
 #providers-head-section {
   color: #fff;
@@ -112,3 +118,27 @@ p {
   color: #785ca6;
   padding: 0;
   margin-bottom: 0; }
+
+@media (max-width: 480px) {
+  #home-section {
+    background: #d9c1ff;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 550px; }
+    #home-section .awards {
+      width: 75px;
+      height: auto;
+      margin-top: 10px;
+      margin-left: 10px; }
+  #services-head-section img {
+    padding: 20px;
+    width: 200px;
+    height: auto; }
+  #providers-head-section img {
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  #providers-head-section p {
+    margin: 0px; } }

@@ -63,6 +63,7 @@ p {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
+  min-height: 700px;
 
   .dark-overlay {
     background-color: $dark-overlay;
@@ -82,8 +83,15 @@ p {
     padding-top: 150px;
   }
 
-  h4 {
-    text-align: right;
+  p {
+    margin-bottom: 1px;
+  }
+
+  .awards {
+    width: 125px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 10px;
   }
 }
 
@@ -167,5 +175,42 @@ p {
     color: $primary-color;
     padding: 0;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #home-section {
+    background: $secondary-color;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 550px;
+
+    .awards {
+      width: 75px;
+      height: auto;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  #services-head-section {
+    img {
+      padding: 20px;
+      width: 200px;
+      height: auto;
+    }
+  }
+
+  #providers-head-section {
+    img {
+      padding: 20px;
+      width: 200px;
+      height: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    p {
+      margin: 0px;
+    }
   }
 }
