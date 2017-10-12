@@ -1,15 +1,21 @@
 // imports
-@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto"); // vairable
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
+
+//vairable
 $font-color: #fff;
 $font-sec-color: #000000;
 $primary-color: #785ca6;
 $secondary-color: #d9c1ff;
+$bar-color: #5e35a2;
 $third-color: #969345;
 $fourth-color: #e3e095;
 $dark-overlay: rgba(0, 0, 0, 0.2);
 $text-font: "Roboto";
 $headline-font: "Raleway";
 
+//Mixins
+
+//SCSS
 body {
   background: $primary-color;
   color: $font-color;
@@ -28,6 +34,10 @@ p {
   font-family: $text-font;
 }
 
+.bar {
+  background-color: $bar-color;
+  box-shadow: 1px 1px $font-sec-color;
+}
 .navbar {
   img {
     width: auto;
@@ -143,7 +153,7 @@ p {
 
   img {
     margin-top: 30px;
-    height: 100px;
+    height: 75px;
   }
 
   .address {

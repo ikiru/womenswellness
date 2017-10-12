@@ -14,6 +14,10 @@ a,
 p {
   font-family: "Roboto"; }
 
+.bar {
+  background-color: #5e35a2;
+  box-shadow: 1px 1px #000000; }
+
 .navbar {
   padding: 0;
   background-color: #785ca6;
@@ -95,7 +99,7 @@ p {
     color: #000000; }
   #office-head-section img {
     margin-top: 30px;
-    height: 100px; }
+    height: 75px; }
   #office-head-section .address {
     margin-top: 30px;
     text-align: center; }
